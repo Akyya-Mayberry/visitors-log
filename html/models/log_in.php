@@ -1,9 +1,7 @@
 <?php
 
 function logIn($visitorFirst, $visitorLast, $visitingFirst, $visitingLast, $clockedIn, $clockedInDb) {
-$servername = "hills.ccsf.edu";
-        $username = "amayberr";
-        $password = "dec0383.am";
+//put database credentials here
         $conn = new mysqli($servername, $username, $password);
         if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
