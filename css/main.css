@@ -1,0 +1,105 @@
+/*
+@media screen and (max-width: 640px) {
+  #sidebar {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  #sidebar {
+    width: 200px;
+  }
+}
+
+
+background color originally #111
+*/
+html 
+{
+	margin: 0; padding: 0; background-color: #99CCCC;
+}
+
+body 
+{
+	background-color: #111; padding: 0; margin: 0; background-image: url("../pics/desk.jpg"); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; border-bottom: 0px solid #FFF; height: 400px; width: 100%;
+}
+
+#container 
+{
+	height: 60%; color: #fff; font-family: 'Poiret One', cursive; padding: 0; margin: 0; 
+}
+
+#scan 
+{
+	text-align: center; margin: 0 auto; font-family: 'Poiret One', cursive; color: #fff; font-weight: bold;  font-size: 2em;
+}
+
+#clockbox 
+{
+	color: white; font-size: 15px; margin-left: 20px; margin-top: 200px;
+}
+
+.title 
+{
+	font-family: 'Poiret One', cursive; text-align: center; font-size: 80px; margin-top: 5px; margin-bottom: 0; 
+}
+
+.userInputBox
+{
+	width: 300px; height: 30px; font-size: 20px; font-family: 'Poiret One', cursive; text-align: center; border: 1.5px solid #7B8F30; background: rgba(1, 1, 1, 0); color: #000; font-weight: bold; margin: 0; margin-top: 0; padding-top: 0;
+}
+
+#testInfo 
+{
+	color: blue; text-align: center; font-size: 20px;
+}
+
+#testInfo table 
+{
+	text-align: center;
+	color: blue;
+	margin-left: 80px;
+}
+
+#logIn 
+{
+	color: orange; font-weight: bold; width: 200px; height: 30px; font-size: 20px; font-family: 'Poiret One', cursive; text-align: center; border: 1px solid orange; background: rgba(1, 1, 1, 0); color: #333; margin: 0;
+}
+
+#logIn:hover 
+{
+	background: #7B8F30;
+}
+
+#submitVis
+{
+	color: orange; font-weight: bold; width: 200px; height: 30px; font-size: 20px; font-family: 'Poiret One', cursive; text-align: center; border: 1px solid orange; background: rgba(1, 1, 1, 0); color: #333; margin: 0;
+}
+
+#submitVis:hover 
+{
+	background: #7B8F30;
+}
+
+#visInfo 
+{
+	float: left; margin-left: 150px;
+}
+
+#inmateInfo {
+	float: right; margin-right: 150px;
+}
+
+.checkInTitle 
+{
+	margin-top: 0; margin-bottom: 0; padding: 0; color: #F3F5FB; font-weight: bold;
+}
+
+.inputFields 
+{
+margin-top: 10px; padding: 0; color: #000; font-weight: bold;
+}
+
+
+
+
+/*#FFFFCC #CC9999  #82927C #F3F5FB--text-shadow: 1px 2px #ccc;*/

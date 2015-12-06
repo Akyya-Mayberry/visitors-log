@@ -1,0 +1,10 @@
+CREATE TABLE visitors (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+visiting_firstname VARCHAR(30) NOT NULL,
+visiting_lastname VARCHAR(30) NOT NULL,
+logged_in TINYINT(1) DEFAULT 0,
+time_in DATETIME DEFAULT NULL,
+time_out DATETIME DEFAULT NULL
+);
