@@ -3,9 +3,7 @@
 //connect to database to see who is logged in
 function whoLoggedIn() {	
 				//connect to database
-        $servername = "hills.ccsf.edu";
-        $username = "amayberr";
-        $password = "dec0383.am";
+//add database credentials here
         $conn = new mysqli($servername, $username, $password);
         if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
