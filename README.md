@@ -1,0 +1,2 @@
+# visitors-log
+This project was initially going to be a web app for my school district that tracks students checking in to certain areas. The project was replaced by a paid app, so, I used what I had of it to complete a group assignment in a php class that I am in. I coded this all on my own so far. This app now simply keeps track of people logging in and out of a location. I used inmate as an example. It may be further developed by my group members.
